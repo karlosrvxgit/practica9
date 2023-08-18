@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.biografia{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(74, 214, 172);
+  border: 2px solid gray;
+  border-radius: 10px;
+  height: 500px;
+  margin-top: 5px;
+  
+}
+
+.img1{
+  background-color: rgb(235, 211, 134);
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.texto1{
+  display: flex;
+  justify-content:center;
+  text-align:left;
+  background-color: rgb(145, 212, 201);
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  overflow-y: auto;
+}
+
+.texto1 > span{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.imgn{
+  margin-top: 40px;
+  
+}
